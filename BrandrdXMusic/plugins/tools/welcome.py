@@ -91,10 +91,9 @@ async def greet_group(_, member: ChatMemberUpdated):
 ๏ 𝗡𝗔𝗠𝗘 ➠ {user.mention}
 ๏ 𝗜𝗗 ➠ {user.id}
 ๏ 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 ➠ @{user.username}
-๏ 𝐌𝐀𝐃𝐄 𝐁𝐘 ➠ [⏤͟͟͞͞𓆩 𝐁ᴏᴛ ꭙ 𝐌ᴀᴋᴇʀ𓆪](https://t.me/AboutBotMaker)
 ➖➖➖➖➖➖➖➖➖➖➖
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"😎𝐉ᴏɪɴ 😘", url=f"https://t.me/+6BADWq1ODA9mZjY1")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"😎𝐉ᴏɪɴ 😘", url=f"https://t.me/+gaoqm0JI6uFlZGNl")]])
         )
     except Exception as e:
         LOGGER.error(e)
